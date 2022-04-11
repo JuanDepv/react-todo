@@ -1,0 +1,37 @@
+.createTodoButton {
+    background-color: #8633e6;
+    box-shadow: 0px 5px 25px rgba(4, 25, 31, 0);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 50px;
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    font-weight: bold;
+    color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    width: 64px;
+    z-index: 1;
+  }
+
+  .createTodoInput[type='text'] {
+    box-shadow: 0px 5px 25px rgb(17, 1, 1);
+    border: none;
+    font-size: 30px;
+    text-align: center;
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    font-weight: bold;
+    width: 500px;
+    height: 62px;
+    border-radius: 33px;
+  }
+  
+  .createTodoButton:hover {
+    background-color: #4b128b;
+  }
